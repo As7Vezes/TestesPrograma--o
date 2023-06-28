@@ -1,0 +1,20 @@
+.objeto {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: mover 2s infinite;
+  }
+  
+  @keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(60px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
