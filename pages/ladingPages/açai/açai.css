@@ -14,7 +14,7 @@ body {
 section {
     width: 900px;
     height: 500px;
-    background-color: #A62D2F;
+    background: linear-gradient(40deg, #3A5132, #828A2E);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ section {
 .description {
     display: flex;
     align-items: center;
-    background-color: #E2AFA4;
+    background: linear-gradient(50deg,#5e2380, #4c116e) ;
     width: 650px;
     height: 100%;
     margin: 0;
@@ -41,7 +41,7 @@ section {
     left: 30px;
     width: 20px;
     height: 20px;
-    background-color: #BE603F;
+    background-color: #828A2E;
     border-radius: 50%;
 }
 
@@ -52,7 +52,7 @@ section {
     right: 80px;
     width: 30px;
     height: 30px;
-    background-color: #56211D;
+    background-color: #335726;
     border-radius: 50%;
 }
 
@@ -77,7 +77,18 @@ section {
     right: 80px;
     width: 30px;
     height: 30px;
-    background-color: #A62D2F;
+    background-color: #cf0003;
+    border-radius: 50%;
+}
+
+.description .additional-ball1::before {
+    content: "";
+    position: absolute;
+    top: 160px;
+    right: 50px;
+    width: 25px;
+    height: 25px;
+    background-color: #007219;
     border-radius: 50%;
 }
 
@@ -88,9 +99,11 @@ section {
     right: 300px;
     width: 30px;
     height: 30px;
-    background-color: #A62D2F;
+    background-color: #619b4f;
     border-radius: 50%;
 }
+
+
 
 .description ul {
     list-style: none;
@@ -98,14 +111,15 @@ section {
 
 .description ul li {
     margin-top: 15px;
-    color: #bb3232;
-    font-size: 1.1rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .description ul li strong {
-    color: #A62D2F;
-    font-size: 1.3rem;
-    font-weight: 600;
+    color: #41be1e;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 
@@ -119,7 +133,7 @@ section {
 }
 
 .image-logo img {
-    max-width: 100%;
+    max-width: 80%;
     max-height: 100%;
     border-radius: 5px;
 }
