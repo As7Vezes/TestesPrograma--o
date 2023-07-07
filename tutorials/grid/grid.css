@@ -1,0 +1,27 @@
+.container {
+    display: grid; /* Define o elemento pai como um grid container */
+    grid-template-columns: 2fr 1fr 1fr 1fr; /* Define três colunas com largura igual */
+    grid-gap: 10px; /* Define um espaçamento de 10 pixels entre as células */
+  }
+  
+  .item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+  .container2 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Cria colunas com largura mínima de 200px e preenche o espaço disponível */
+    grid-gap: 10px;
+  }
+  
+  .item2 {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
